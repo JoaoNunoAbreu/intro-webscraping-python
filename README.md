@@ -7,10 +7,14 @@ Fetches name and price of the first 20 products of a product in FNAC website, sa
 
 Install Beautiful Soup:
 
-```$ pip install bs4```
+```shell
+$ pip install bs4
+```
 
 ## Usage
 
 Run:
 
-```$ python search_fnac.py```
+```shell
+$ python search_fnac.py
+```

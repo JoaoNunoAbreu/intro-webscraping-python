@@ -1,7 +1,7 @@
 # intro-webscraping-python
 
 Basic Web Scraping example with Python and Beautiful Soup.  
-Searches for the first 20 products of a product in FNAC.pt, saving the names and prices on a .csv file or presenting them directly on stdin.
+Searches for a product in FNAC.pt, saving the names and prices on a .csv file or presenting them directly on stdin.
 
 ## Dependencies
 

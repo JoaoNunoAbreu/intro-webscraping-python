@@ -1,3 +1,4 @@
+import sys
 import fileinput
 # Beautiful Soup
 from urllib.request import urlopen as uReq
@@ -23,13 +24,17 @@ print("Completed!")
 print("Show results in:")
 print("\t1 - stdin")
 print("\t2 - file.csv")
+print("\t3 - exit")
 print("Choice: ",end="")
 choice = int(input())
 
-while(choice != 1 and choice != 2):
+while(choice != 1 and choice != 2 and choice != 3):
     print("Invalid option!")
     print("Choice:",end="")
     choice = int(input())
+
+if(choice == 3):
+    sys.exit()
 
 if(choice == 2):
     filename = "products.csv"
